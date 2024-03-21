@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+%bg-props {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5% 7%;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+@mixin flexi($fl,$a,$j) {
+    display: flex;
+    flex-flow: $fl;
+    align-items: $a;
+    justify-content: $j;
+}
+
+@mixin circles($s) {
+    width: $s;
+    height: $s;
+    z-index: 1;
+}
+
+@import "blocks/header.scss";
+@import "blocks/about.scss";
+@import "blocks/services.scss";
+@import "blocks/portfolio.scss";
+@import "blocks/skills.scss";
+@import "blocks/teste.scss";
+@import "blocks/inspo.scss";
+@import "blocks/touch.scss";
+@import "blocks/footer.scss";

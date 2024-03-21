@@ -1,0 +1,68 @@
+.skills {
+    @extend %bg-props;
+}
+
+.skills * {
+    text-align: center;
+}
+
+.title_size_16 {
+    font-size: 16px;
+}
+
+.skills__progs {
+    @include flexi(row wrap,center,space-between);
+    gap: 15px;
+    width: 90%;
+}
+
+.skills__progs * {
+    text-align: left;
+}
+
+.skills__program {
+    @include flexi(column,flex-start,space-between);
+    gap: 15px;
+}
+
+.skills__bar {
+    @include flexi(row,center,space-between);
+    gap: 15px;
+    width: 35vw;
+}
+
+.line {
+    width: 100%;
+}
+
+.line_color_grey {
+    background-color: #E1E1E1;
+}
+
+.line_color_black {
+    border: 3px solid #1F1F1F;
+}
+
+.line_size_60 {
+    width: 60%;
+}
+
+.line_size_70 {
+    width: 70%;
+}
+
+.line_size_45 {
+    width: 45%;
+}
+
+.line_size_95 {
+    width: 95%;
+}
+
+.line_size_80 {
+    width: 80%;
+}
+
+.line_size_50 {
+    width: 50%;
+}

@@ -1,0 +1,31 @@
+.teste {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 5% 7%;
+  gap: 35px;
+  justify-content: space-between;
+  background-color: #FFD4D0;
+  position: relative;
+  overflow: hidden;
+}
+
+.teste * {
+  text-align: center;
+  z-index: 2;
+}
+
+.teste__guy {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.circle_size_122 {
+  z-index: 1;
+  width: 122px;
+  height: 122px;
+  top: -15%;
+}/*# sourceMappingURL=teste.css.map */

@@ -1,0 +1,42 @@
+.portfolio {
+    @extend %bg-props;
+    background: linear-gradient(
+        #FFD4D0 0%, 
+        #FFD4D0 318px, 
+        white 318px,
+        white 100%);
+}
+
+.portfolio * {
+    text-align: center;
+}
+
+
+.works {
+    @include flexi(row wrap,center,space-between);
+    gap: 100px;
+}
+
+.works * {
+    text-align: left;
+}
+
+.works__project {
+    @include flexi(column,center,space-between);
+    gap: 25px;   
+    background-color: #FFFFFF;
+}
+
+.works__desc {
+    @include flexi(row,flex-end,space-between);
+    width: 100%;
+}
+
+.works__text {
+    @include flexi(column,flex-start,space-between);
+    gap: 25px;
+}
+
+.title_size_20 {
+    font-size: 20px;
+}

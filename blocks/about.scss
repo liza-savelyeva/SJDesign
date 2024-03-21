@@ -1,0 +1,57 @@
+.about {
+    @extend %bg-props;
+    background-color: #1f1f1f;
+    position: relative;
+    overflow: hidden;
+}
+
+.about * {
+    text-align: center;
+    z-index: 2;
+}
+
+.title {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #1f1f1f;
+}
+
+.title_size_36 {
+    font-size: 36px;
+}
+
+.title_size_64 {
+    font-size: 64px;
+}
+
+.title_color_white {
+    color: #ffffff;
+}
+
+.title_color_pink {
+    color: #FFD4D0;
+}
+
+.text_color_white {
+    color: #ffffff;
+}
+
+.text_width_60 {
+    width: 60%;
+}
+
+.about__stats {
+    @include flexi(row,initial,space-between);
+    width: 65%;
+}
+
+.about__statist {
+    display: flex;
+    flex-flow: column;
+}
+
+.circle_size_234 {
+    @include circles(234px);
+    align-self: center;
+    top: 90%;
+}

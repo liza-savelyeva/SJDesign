@@ -1,0 +1,85 @@
+.touch {
+    @extend %bg-props;
+    flex-flow: row;
+    padding: 8% 7%;
+    background-color: #FFD4D0;
+    position: relative;
+    overflow: hidden;
+}
+
+.touch * {
+    z-index: 2;
+}
+
+.touch__info {
+    @include flexi(column,flex-start,space-between);
+    gap: 100px;
+}
+
+.touch__info * {
+    text-align: left;
+}
+
+.touch__cont {
+    @include flexi(column,flex-start,space-between);
+    gap: 60px;
+}
+
+.touch__text {
+    @include flexi(column,flex-start,space-between);
+    gap: 35px;
+}
+
+.touch__contacts {
+    @include flexi(column,flex-start,space-between);
+    gap: 35px;
+}
+
+.touch__icons {
+    @include flexi(row,center,space-between);
+    gap: 20px;
+}
+
+.circle_size_221 {
+    @include circles(221px);
+    left: -10%;
+}
+
+form {
+    @include flexi(column,flex-start,initial);
+    gap: 25px;
+    width: 60%;
+}
+
+form * {
+    padding: 16px;
+}
+
+input {
+    border: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    width: 100%;
+}
+
+*::placeholder{
+    color: #8D8D8D;
+}
+
+textarea {
+    border: none;
+    font-family: DM Sans;
+    font-family: Montserrat;
+    font-size: 14px;
+    height: 17vh;
+    resize: vertical;
+    width: 100%;
+}
+
+.text_width_85 {
+    width: 85%;
+}
+
+.button_place_contact {
+    padding: 14px 10%;
+}

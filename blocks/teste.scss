@@ -1,0 +1,21 @@
+.teste {
+    @extend %bg-props;
+    background-color: #FFD4D0;
+    position: relative;
+    overflow: hidden;
+}
+
+.teste * {
+    text-align: center;
+    z-index: 2;
+}
+
+.teste__guy {
+    @include flexi(row,center,space-between);
+    gap: 10px;
+}
+
+.circle_size_122 {
+    @include circles(122px);
+    top: -15%
+}

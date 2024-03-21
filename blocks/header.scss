@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header {
+    padding: 3% 7% 0 7%;
+    background-color: #FFD4D0;
+    position: relative;
+    overflow: hidden;
+}
+
+.header * {
+    z-index: 2;
+}
+
+.topbar {
+    @include flexi(row,center,space-between);
+    margin-bottom: 7%;
+}
+
+.topbar__menu {
+    @include flexi(row,center,space-between);
+    width: 35%;
+}
+
+
+
+.topbar__item {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #1F1F1F;
+    font-weight: bold;
+}
+
+.button {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.button_place_topbar {
+    padding: 1% 2%;
+}
+
+.button_place_intro {
+    padding: 3% 10%;
+    border: solid 1px #1F1F1F;
+}
+
+.button_color_black {
+    color: #FFFFFF;
+    background-color: #1F1F1F;
+}
+
+.button_color_white {
+    color: #1F1F1F;
+    background-color: #FFFFFF;
+}
+
+.intro {
+    @include flexi(row,initial,space-between);
+}
+
+.intro__text {
+    @include flexi(column,initial,space-around);
+    width: 35%;
+    padding-bottom: 5%;
+}
+
+.intro__buttons {
+    @include flexi(row,initial,flex-start);
+    gap: 20px;
+}
+
+.intro__job {
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #1F1F1F;
+}
+
+.intro__greet {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: bold;
+    color: #1F1F1F;
+}
+
+.intro__greet_color_red {
+    color: #FC3314;
+}
+
+.text {
+    font-family: Montserrat;
+    color: #1F1F1F;
+}
+
+.text_size_16 {
+    font-size: 16px;
+}
+
+.circle {
+    border-radius: 50%;
+    background: #FC3314;
+    position: absolute;
+}
+
+.circle_size_146 {
+    @include circles(146px);
+    top: -7%;
+    left: 28%;
+}
+
+*:link{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+*:visited{
+    color: inherit;
+}
+
+.button_color_black:link {
+    color: #FFFFFF;
+}
+
+.button_color_black:visited {
+    color: #FFFFFF;
+}
+
+

@@ -1,0 +1,25 @@
+.services {
+    @extend %bg-props;
+}
+
+.services * {
+    text-align: center;
+}
+
+.text_width_63 {
+    width: 63%;
+}
+
+.services__options {
+    @include flexi(row,flex-start,space-between);
+}
+
+.services__opt {
+    @include flexi(column,flex-start,space-between);
+    gap: 25px;
+    width: 20%;
+}
+
+.services__opt * {
+    text-align: left;
+}

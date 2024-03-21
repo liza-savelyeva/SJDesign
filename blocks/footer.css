@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 5% 7%;
+  justify-content: space-between;
+  background-color: #1F1F1F;
+  gap: 100px;
+}
+
+.footer__menu {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.footer__item {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.footer__icons {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}/*# sourceMappingURL=footer.css.map */

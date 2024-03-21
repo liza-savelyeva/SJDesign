@@ -1,0 +1,58 @@
+.inspo {
+    @extend %bg-props;
+    gap: 40px;
+    background-color: #F7F7F7;
+}
+
+.inspo * {
+    text-align: center;
+}
+
+.text_size_12 {
+    font-size: 12px;
+}
+
+.title_size_12 {
+    font-size: 12px;
+}
+
+.arts {
+    @include flexi(row,stretch,space-between);
+    gap: 85px;
+}
+
+.arts__article {
+    @include flexi(column,flex-start,flex-start);
+    gap: 25px;
+    background-color: #FFFFFF;
+    width: 35%;
+}
+
+.arts__info {
+    @include flexi(column,flex-start,initial);
+    padding: 5%;
+    gap: 60px;
+}
+
+.arts__text {
+    @include flexi(column,flex-start,initial);
+    gap: 15px;
+}
+
+.arts__info * {
+    text-align: left;
+}
+
+.pic {
+    width: 100%;
+}
+
+.arrow {
+    @include flexi(row,center,initial);
+    gap: 10px;
+}
+
+.text_width_95 {
+    width: 95%;
+}
+

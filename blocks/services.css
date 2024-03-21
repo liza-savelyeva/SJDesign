@@ -1,0 +1,36 @@
+.services {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 5% 7%;
+  gap: 35px;
+  justify-content: space-between;
+}
+
+.services * {
+  text-align: center;
+}
+
+.text_width_63 {
+  width: 63%;
+}
+
+.services__options {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.services__opt {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
+  width: 20%;
+}
+
+.services__opt * {
+  text-align: left;
+}/*# sourceMappingURL=services.css.map */

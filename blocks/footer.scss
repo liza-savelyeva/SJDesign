@@ -1,0 +1,27 @@
+.footer {
+    @extend %bg-props;
+    background-color: #1F1F1F;
+    gap: 100px;
+}
+
+.footer__menu {
+    @include flexi(row,center,space-between);
+    width: 65%;
+}
+
+.footer__contacts {
+    @include flexi(column,center,space-between);
+    gap: 35px;
+}
+
+.footer__item {
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.footer__icons {
+    @include flexi(row,center,space-between);
+    gap: 20px;
+}

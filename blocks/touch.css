@@ -1,0 +1,109 @@
+.touch {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 8% 7%;
+  justify-content: space-between;
+  background-color: #FFD4D0;
+  position: relative;
+  overflow: hidden;
+}
+
+.touch * {
+  z-index: 2;
+}
+
+.touch__info {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.touch__info * {
+  text-align: left;
+}
+
+.touch__cont {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.touch__text {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 35px;
+  justify-content: space-between;
+}
+
+.touch__contacts {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 35px;
+  justify-content: space-between;
+}
+
+.touch__icons {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.circle_size_221 {
+  width: 221px;
+  height: 221px;
+  left: -10%;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  gap: 25px;
+  width: 60%;
+  align-items: flex-start;
+}
+
+form * {
+  padding: 16px;
+}
+
+input {
+  border: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  width: 100%;
+}
+
+*::-moz-placeholder {
+  color: #8D8D8D;
+}
+
+*::placeholder {
+  color: #8D8D8D;
+}
+
+textarea {
+  border: none;
+  font-family: DM Sans;
+  font-family: Montserrat;
+  font-size: 14px;
+  height: 17vh;
+  resize: vertical;
+  width: 100%;
+}
+
+.text_width_85 {
+  width: 85%;
+}
+
+.button_place_contact {
+  padding: 14px 10%;
+}/*# sourceMappingURL=touch.css.map */
